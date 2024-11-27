@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayScape</title>
+
+<!--------------- CSS --------------->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+<!--------------- Font Awesome --------------->
+    <script src="https://kit.fontawesome.com/4d9b320679.js" crossorigin="anonymous"></script>
+
+<!--------------- Favicon --------------->
+    <link rel="icon" type="image/x-icon" href="Images/House Favicon.jpeg">
+
+<!--------------- Google Font --------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Caveat:wght@400..700&family=Changa+One:ital@0;1&family=Courgette&family=Kalam:wght@300;400;700&family=Outfit:wght@100..900&family=Prata&family=Spicy+Rice&family=Trade+Winds&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Bubblegum+Sans&family=Caveat:wght@400..700&family=Changa+One:ital@0;1&family=Courgette&family=Kalam:wght@300;400;700&family=Outfit:wght@100..900&family=Prata&family=Spicy+Rice&family=Trade+Winds&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Bubblegum+Sans&family=Caveat:wght@400..700&family=Changa+One:ital@0;1&family=Charm:wght@400;700&family=Courgette&family=Kalam:wght@300;400;700&family=Outfit:wght@100..900&family=Prata&family=Spicy+Rice&family=Trade+Winds&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body class="body-color">
+<!--------------- Navbar --------------->
+    <nav id="navbar">
+        <div class="navbar-judul">
+           <a href="#">StayScape</a> 
+        </div>
+
+        <div class="navbartoogle">
+            <a href="index.html">Home</a>
+            <a href="About.html">About Us</a>
+            <a href="Catalogue.html">Catalogue</a>
+            <a href="Contact.html">Services and More</a>
+        </div>
+    </nav>
+
+
+
+    <br>
+<!--------------- Isi --------------->
+    <div>
+        <div class="Apa">
+            Apa itu StayScape?
+        </div>
+
+        <p class="Platform"> 
+            StayScape adalah platform terbaik untuk menyewa rumah, vila, dan kabin di lokasi impian Anda! Nikmati berbagai pilihan hunian berkualitas dengan fitur-fitur lengkap 
+            yang sesuai dengan kebutuhan Anda, baik untuk liburan, pekerjaan, atau tempat tinggal sementara.
+        </p>
+
+        <p>
+            <h2 class="Temukan">
+                Temukan:
+            </h2>
+
+            <ul class="tujuan">
+                <li>Rumah yang nyaman untuk keluarga.</li>
+                <li>Vila mewah dengan pemandangan menakjubkan.</li>
+                <li>Kabin unik untuk pengalaman berkesan di alam.</li>
+            </ul>
+        </p>
+
+        <p class="nikmati">
+            Nikmati pencarian yang mudah, harga transparan, dan ulasan terpercaya dari penyewa sebelumnya. 
+            Kami membantu Anda menemukan tempat tinggal terbaik dengan proses pemesanan yang cepat dan aman.
+        </p>
+
+        <p class="ajakan"><b>Pesan sekarang dan wujudkan pengalaman menginap tak terlupakan!</b></p>
+    </div>
+
+
+
+<!--------------- Isi(Visi Misi) --------------->
+            <h1 class="visionmision">
+                Visi & Misi
+            </h1> 
+
+            <div class="kotak">
+                <div class="visi">
+                    <h2 class="visi-judul">
+                        Visi
+                    </h2>
+        
+                    <p class="descvisi">
+                        Menjadi platform terpercaya yang menghubungkan pelanggan dengan properti terbaik, memberikan pengalaman menginap yang nyaman, aman, dan tak terlupakan di setiap destinasi.
+                    </p>
+                </div>
+        
+                <div class="misi">
+                    <h2 class="misi-judul">
+                        Misi
+                    </h2>
+        
+                    <ol>
+                        <li>Menyediakan sistem pencarian dan pemesanan yang intuitif, cepat, dan user-friendly untuk berbagai jenis properti.</li>
+                        <li>Menjamin setiap rumah, vila, dan kabin yang tersedia memenuhi standar kenyamanan, kebersihan, dan keamanan.</li>  
+                        <li>Menyediakan layanan pelanggan responsif yang siap membantu mulai dari pemesanan hingga akhir masa sewa.</li>
+                        <li>Mendorong praktik ramah lingkungan dalam operasional dan properti untuk mendukung wisata yang bertanggung jawab.</li>
+                        <li>Memberikan deskripsi properti yang jujur dan detail, termasuk fasilitas, lokasi, dan ulasan pelanggan untuk membantu pengambilan keputusan.</li>
+                    </ol>
+                </div>
+            </div>
+            
+
+        
+<!--------------- Javascript --------------->
+    <script type="text/javascript">
+        var lastScrollTop = 0;
+            navbar = document.getElementById("navbar");
+        window.addEventListener("scroll", function(){
+            var scrollTop = window.pageYOffset || document
+                .documentElement.scrollTop;
+            if (scrollTop > lastScrollTop){
+                navbar.style.top='-80px';
+            } else {
+                navbar.style.top="0";
+            }
+            lastScrollTop = scrollTop;
+        })
+    </script>
+    
+
+
+<!--------------- Footer --------------->
+<footer class="footer">
+    <p>Temukan Toko Kami di Platform Berikut:</p>
+    <div class="footer-logo">
+        <a href="https://shopee.co.id/adidasindonesia" target="_blank">
+            <img src="Images/Shopee.png" alt="Shopee">
+        </a>
+
+        <a href="https://tokopedia.link/qhVGFUhlcOb" target="_blank">
+            <img src="Images/Tokopedia.png" alt="Tokopedia">
+        </a>
+    </div>
+    
+    <p>&copy; 2024 StayScape. All Rights Reserved.<br>
+    Rafi Nedine Oktafiansyah</p>
+
+    <div class="social-icons">
+        <p>Kontak Kami: 0813-8800-5622</p>
+        <a href="https://wa.me/qr/OFXL3JG6LEA4C1" target="_blank" class="icon whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/rafi.oktafiansyah10/profilecard/?igsh=eDUxZWNrbTBsOHp0" target="_blank" class="icon instagram"><i class="fab fa-instagram"></i></a>    
+    </div>
+</footer>
+
+
+
+</body>
+</html>
